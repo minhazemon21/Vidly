@@ -16,4 +16,11 @@
 
         Return View()
     End Function
+    Function Myself() As ActionResult
+        ViewData("Message") = "My Self page"
+        Return View()
+
+
+    End Function
+
 End Class

@@ -23,6 +23,7 @@ End Code
     <section class="main_section">
         <div class="div div1" style="resize:both; overflow:auto">
             <p>This is first div</p>
+            <p>Minhaz</p>
         </div>
         <div class="flex-container">
             <div class="div div2">

@@ -64,3 +64,8 @@ h4{
 .div6 {
     background-image: repeating-linear-gradient(45deg, #db7c78, transparent 100px);
 }
+
+.navbar navbar-inverse navbar-fixed-top {
+    background: #9d8a15;
+    color: black;
+}

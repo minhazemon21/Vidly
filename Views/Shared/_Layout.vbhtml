@@ -6,11 +6,25 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .navbar-inverse {
+            background: #9d8a15;
+            
+        }
+        .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+            color: black;
+            font-weight:bold;
+        }
+        
+
+    </style>
+    
 </head>
+
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header" >
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -24,6 +38,8 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Myself", "Myself", "Home")</li>
+                    <li>@Html.ActionLink("BSPage", "BSPage", "Home")</li>
+
 
 
                 </ul>
@@ -35,6 +51,7 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            
         </footer>
     </div>
 

@@ -22,5 +22,13 @@
 
 
     End Function
+    Function BSPage() As ActionResult
+        ViewData("Message") = "Bootstrap Practice"
+        Return View()
+
+
+
+    End Function
+
 
 End Class
